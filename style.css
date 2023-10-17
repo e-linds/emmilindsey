@@ -1,3 +1,10 @@
 body {
-    background: blue;
+    background: #28666e;
+    font-family: serif
+
+}
+#bio {
+    margin-left: 250px;
+
+
 }
