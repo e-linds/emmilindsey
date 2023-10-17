@@ -1,10 +1,19 @@
 body {
     background: #28666e;
-    font-family: serif
+    font-family: serif;
+    color: white
 
 }
 #bio {
-    margin-left: 250px;
+    position: absolute;
+    right: 150px;
+    margin-left: 300px;
+    width: 350px;
+    float: right;
+    
+
+
+
 
 
 }

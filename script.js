@@ -1,4 +1,4 @@
-const h2 = document.createElement("h2");
-h2.textContent = "bio bio bio";
+const p = document.createElement("p");
+p.textContent = "LIST ALL PROJECTS HERE"
 
-document.querySelector("body").appendChild(h2);
+document.querySelector("body").appendChild(p)
