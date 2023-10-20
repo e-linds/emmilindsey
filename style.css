@@ -15,10 +15,16 @@ body {
    
 }
 
-#projectList {
+.leftside {
+    margin-left: 50px;
+    text-align: left;
     position: relative;
-    padding: 30px;
-    width: 250px;
+}
+
+#projectList {
+    padding-right: 30px;
+    width: 300px;
+    text-align: left
 }
 
 
@@ -28,12 +34,24 @@ img {
     position: relative;
     margin: auto;
     opacity: 0.25;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
 }
 
-.topLine {
-    display: inline-block;
+.topnav {
+    padding-bottom: 50px;
+    
+}
+
+.topnav a {
+    float: left;
+    text-align: left;
+    padding: 14px;
+    font-size: 17px;
+    color: white;
+    
+
 }
 
 
