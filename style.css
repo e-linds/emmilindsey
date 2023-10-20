@@ -21,14 +21,21 @@ body {
     width: 250px;
 }
 
-.topLine {
-    display: inline-block;
-}
 
 img {
     max-width: 200px;
     height: auto;
     position: relative;
     margin: auto;
+    opacity: 0.25;
+    padding: 15px;
+
 }
+
+.topLine {
+    display: inline-block;
+}
+
+
+
 
