@@ -8,10 +8,6 @@ bio.textContent = "DRAFT Hey! My name is Emmi, and I'm learning to code at Flati
 const shoeSelector = document.getElementById('runningshoes');
 shoeSelector.addEventListener('mouseover', function() {
     shoeSelector.style.opacity = "1";
-
-const shoeCaption = document.createElement("div");
-document.h2.append(shoeCaption);
-shoeCaption.textContent = "Running Shoe Selector"
 });
 
 shoeSelector.addEventListener('mouseout', function() {
@@ -30,11 +26,11 @@ playlistGenerator.addEventListener('mouseout', function() {
 
 
 
-const shoeCaption = document.createElement("div");
+/*const shoeCaption = document.createElement("div");
 h2.append(shoeCaption)
 shoeCaption.textContent = "Running Shoe Selector"
 
 const chantbookCaption = document.createElement("div");
-chantbookCaption.textContent = "Playlist Generator";
+chantbookCaption.textContent = "Playlist Generator";*/
 
 
