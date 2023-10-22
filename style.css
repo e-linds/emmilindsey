@@ -2,36 +2,31 @@ body {
     background: #28666e;
     font-family: Helvetica;
     color: white;
-    height: 500px;
     width: 1000px;
     margin-left: 150px;
     margin-top: 50px;
+    text-align: left;
 }
 #bio {
     float: right;
-    position: relative;
     width: 500px;
     text-align: center;
    
 }
 
-.leftside {
-    margin-left: 50px;
+h2 {
     text-align: left;
-    position: relative;
+    max-width: 300px;
 }
 
-#projectList {
-    padding-right: 30px;
-    width: 300px;
-    text-align: left
+#photos {
+    width: 150px;
 }
 
 
 img {
     max-width: 200px;
     height: auto;
-    position: relative;
     margin: auto;
     opacity: 0.25;
     padding-top: 15px;
@@ -41,13 +36,16 @@ img {
 
 .topnav {
     padding-bottom: 50px;
+    left: 150px;
     
 }
 
 .topnav a {
+    left: 0;
     float: left;
-    text-align: left;
-    padding: 14px;
+    padding-right: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     font-size: 17px;
     color: white;
     
