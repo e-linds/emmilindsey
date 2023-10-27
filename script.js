@@ -6,45 +6,33 @@ bio.textContent = "DRAFT Hey! My name is Emmi, and I'm learning to code at Flati
 
 //event listener for running shoes picture
 const shoeSelector = document.getElementById('runningshoes');
+const shoeSelectorCaption = document.getElementById('runningshoecaption');
+
 shoeSelector.addEventListener('mouseover', function() {
     shoeSelector.style.opacity = "1";
+    shoeSelectorCaption.textContent = "Running Shoe Selector"
 
 });
 
 shoeSelector.addEventListener('mouseout', function() {
     shoeSelector.style.opacity = "0.25";
+    shoeSelectorCaption.textContent = "";
 })
 
 //event listener for chant book picture
 const playlistGenerator = document.getElementById("chantbook");
+const playlistGeneratorCaption = document.getElementById("chantbookcaption");
+
 playlistGenerator.addEventListener('mouseover', function() {
     playlistGenerator.style.opacity = "1";
+    playlistGeneratorCaption.textContent = "Playlist Generator";
 
 });
 
 playlistGenerator.addEventListener('mouseout', function() {
     playlistGenerator.style.opacity = "0.25";
-});
-
-
-const shoeSelectorCaption = document.getElementById('runningshoecaption');
-shoeSelectorCaption.addEventListener('mouseover', function() {
-    shoeSelectorCaption.textContent = "Running Shoe Selector";
-});
-
-shoeSelectorCaption.addEventListener('mouseout', function() {
-    shoeSelectorCaption.textContent = "What's this?";
-})
-
-
-const playlistGeneratorCaption = document.getElementById("chantbookcaption");
-playlistGeneratorCaption.addEventListener('mouseover', function() {
-    playlistGeneratorCaption.textContent = "Playlist Generator";
-
-});
-
-playlistGeneratorCaption.addEventListener('mouseout', function() {
-    playlistGeneratorCaption.textContent = "A book?";
+    playlistGeneratorCaption.textContent = "";
+    
 });
 
 

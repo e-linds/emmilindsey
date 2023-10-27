@@ -8,11 +8,13 @@ body {
     margin-right: 150px;
     text-align: left;
 }
+
+
 #bio {
     position: relative;
-    bottom: 450px;
     float: right;
     width: 550px;
+    bottom:450px;
     text-align: center;
    
 }
@@ -25,61 +27,45 @@ body {
 }
 
 #photos {
-    width: 150px;
-}
-
-
-/*img {
     max-width: 200px;
-    height: auto;
+}
+
+
+img {
+    max-width: 200px;
+    opacity: .25;
     margin: auto;
-    opacity: 0.25;
-    padding-top: 15px;
     padding-bottom: 15px;
-
-}*/
-
-#runningshoes {
-    position: absolute;
-    left: 0px;
-    right: 750px;
-    top: 250px;
-    width: 200px;
 }
 
-#chantbook {
-    position: absolute;
-    left: 0px;
-    right: 750px;
-    top: 470px;
-    width: 200px;
-}
 
 #runningshoecaption {
     position: absolute;
-    left: 0px;
+    left: 220px;
     right: 750px;
     top: 250px;
     width: 200px;
     float: right;
+    font-size: 18px;
 
 }
 
 #chantbookcaption {
     position: absolute;
-    left: 0px;
+    left: 220px;
     right: 750px;
     top: 470px;
     width: 200px;
     float: right;
+    font-size: 18px;
 }
 
 .topnav {
-    margin-right: 100px;
+    position: absolute;
+    top: 0px;
+    right: 100px;
     max-width: 400px;
     float: right;
-
-    
 }
 
 .topnav a {
