@@ -1,22 +1,27 @@
 body {
+    position: relative;
     background: #28666e;
     font-family: Helvetica;
     color: white;
-    width: 1000px;
     margin-left: 150px;
     margin-top: 50px;
+    margin-right: 150px;
     text-align: left;
 }
 #bio {
+    position: relative;
+    bottom: 450px;
     float: right;
-    width: 500px;
+    width: 550px;
     text-align: center;
    
 }
 
-h2 {
+#projectlisttitle {
     text-align: left;
-    max-width: 300px;
+    padding-top: 80px;
+    max-width: 500px;
+    
 }
 
 #photos {
@@ -35,19 +40,18 @@ img {
 }
 
 .topnav {
-    padding-bottom: 50px;
-    left: 150px;
+    margin-right: 100px;
+    max-width: 400px;
+    float: right;
+
     
 }
 
 .topnav a {
-    left: 0;
-    float: left;
     padding-right: 14px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    font-size: 17px;
-    color: white;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: #c5e3ec;
     
 
 }
