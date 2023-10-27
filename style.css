@@ -29,7 +29,7 @@ body {
 }
 
 
-img {
+/*img {
     max-width: 200px;
     height: auto;
     margin: auto;
@@ -37,6 +37,41 @@ img {
     padding-top: 15px;
     padding-bottom: 15px;
 
+}*/
+
+#runningshoes {
+    position: absolute;
+    left: 0px;
+    right: 750px;
+    top: 250px;
+    width: 200px;
+}
+
+#chantbook {
+    position: absolute;
+    left: 0px;
+    right: 750px;
+    top: 470px;
+    width: 200px;
+}
+
+#runningshoecaption {
+    position: absolute;
+    left: 0px;
+    right: 750px;
+    top: 250px;
+    width: 200px;
+    float: right;
+
+}
+
+#chantbookcaption {
+    position: absolute;
+    left: 0px;
+    right: 750px;
+    top: 470px;
+    width: 200px;
+    float: right;
 }
 
 .topnav {
